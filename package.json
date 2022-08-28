@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "captchapng": "^0.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.7.7",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "sharp": "^0.30.7",
+    "shortid": "^2.2.16",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development DEBUG=our-shop nodemon server"
+  },
+  "name": "our-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Behnam Rahimzadeh",
+  "license": "MIT",
+  "description": ""
+}
